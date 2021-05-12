@@ -4,4 +4,4 @@
 ## 1. Numerical solution of first order ODEs
 #### Forward Euler Method - Explicit
 - It uses the slope at each point to exgtrapolate and find the next point  
-O(&Delta;t<sup>2;)
+O(&Delta;t<sup>2</sup>)
