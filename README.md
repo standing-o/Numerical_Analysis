@@ -2,8 +2,8 @@
 - My personal MATLAB toolbox for numerical analysis
 
 ## 1. Numerical solution of first order ODEs
-#### Forward Euler Method - Explicit
-y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&Delta;t<sup>2</sup>)
+### Forward Euler Method - Explicit
+#### y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&Delta;t<sup>2</sup>)
 - It uses the slope at each point to exgtrapolate and find the next point  
 - O(&Delta;t<sup>2</sup>)
 
