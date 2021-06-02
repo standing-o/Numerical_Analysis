@@ -8,10 +8,12 @@ y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&D
 - O(&Delta;t<sup>2</sup>)
 - Example) Integrate x'(t) = -2x(t) + 1 with x(0) = 1 | [[Code]](https://github.com/OH-Seoyoung/Numerical_Analysis/blob/master/Numerical_solution_of_ODEs/Forward_Euler_Method.m)
 
+--------------------
 ### Backward Euler Method - Implicit
 y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i+1</sub>, y<sub>i+1</sub>)&Delta;t + O(&Delta;t<sup>2</sup>)  
 - O(&Delta;t<sup>2</sup>)
-
+- 
+----------------------
 ### Midpoint Method
 y<sub>i+1</sub> = y<sub>i-1</sub> + 2f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&Delta;t<sup>3</sup>)  
 - Symmetric method using Taylor expansion that involves only odd powers of &Delta;t
