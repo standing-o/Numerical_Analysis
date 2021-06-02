@@ -12,7 +12,6 @@ y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&D
 ### Backward Euler Method - Implicit
 y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i+1</sub>, y<sub>i+1</sub>)&Delta;t + O(&Delta;t<sup>2</sup>)  
 - O(&Delta;t<sup>2</sup>)
-- 
 ----------------------
 ### Midpoint Method
 y<sub>i+1</sub> = y<sub>i-1</sub> + 2f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&Delta;t<sup>3</sup>)  
