@@ -20,6 +20,5 @@ y<sub>i+1</sub> = y<sub>i-1</sub> + 2f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O
 
 ## Reference
 ```
-[1] Finite-difference Numerical Methods of Partial Differential Equations in Finance with Matlab, Aitor Bergara
-[2] Aitor Bergara, http://www.ehu.eus/aitor/
+[1] Bergara, A. "Finite Difference Numerical Methods of Partial Differential Equations in Finance with MATLAB." Master and Banca (2011).
 ```
