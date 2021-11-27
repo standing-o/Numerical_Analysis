@@ -16,7 +16,7 @@ y<sub>i+1</sub> = y<sub>i</sub> + f(t<sub>i+1</sub>, y<sub>i+1</sub>)&Delta;t + 
 y<sub>i+1</sub> = y<sub>i-1</sub> + 2f(t<sub>i</sub>, y<sub>i</sub>)&Delta;t + O(&Delta;t<sup>3</sup>)  
 - Symmetric method using Taylor expansion that involves only odd powers of &Delta;t
 - O(&Delta;t<sup>3</sup>) -> More accurate  
--> but require special initialisation
+-> but require special initialization
 
 ## Reference
 ```
